@@ -1,0 +1,273 @@
+p {
+    font-family: Roboto, Arial;
+}
+
+
+.top-button-1, .top-button-2, .top-button-3 {
+   cursor: pointer;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 300;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.top-button-1 {
+    margin-left: 700px;
+    margin-right: 0px;
+    
+}
+
+.top-button-2 {
+    margin-left: 150px;
+    margin-right: 130px;
+}
+
+.top-button-3 {
+    margin-right: 50px;
+   
+}
+
+.logo {
+    width: 70px;
+    border-radius: 35px;
+}
+
+.bar-button {
+    display: flex;
+    flex-direction: row;
+    border-spacing: 5px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-bottom: 0;
+    
+}
+
+.top-box {
+    margin-top: 10px;
+    display: inline-block;
+    grid-template-rows: auto;
+    
+}
+
+.headline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: absolute;
+    font-size: 100px;
+    width: 50px;
+    font-style: initial;
+    line-height: 75px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-indent: 72px;
+    text-align: left;
+   }
+
+.headline-div {
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.sub-head {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: absolute;
+    width: 600px;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+
+.subhead-div {
+  width: 50px;
+}
+.button {
+    padding: 7px 7px 5px 5px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 250px;
+    border-radius: 100px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+
+.head-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    vertical-align: top;
+    
+}
+
+.top-img {
+    display: inline-block;
+}
+
+.web-img {
+    display: inline-block;
+    width: 700px;
+    margin-left: 370px;
+    
+}
+
+.sale-box {
+    display: block;
+    margin-left: 150px;
+    border: 5px solid gray;
+    margin-right: 170px;
+    padding-left: 150px;
+    width: 800px;
+    border: 1px solid gray;
+    border-radius: 75px;
+    padding-top: 20px;
+    padding-bottom: 55px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: rgb(18, 7, 29);
+    
+}
+
+.sale-text {
+    font-family: Roboto, Arial;
+    font-weight: 700px;
+    font-size: 45px;
+    width: 700px;
+    margin-bottom: 15px;
+   
+}
+
+.sale-button {
+    margin-left: 250px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding: 7px 7px 8px 8px;
+    font-family: Arial;
+    font-size: 25px;
+    width: 100px;
+    border: 0 solid gray;
+    border-radius: 50px;
+    cursor: pointer;
+    color: green;
+}
+
+.leaf-box {
+display: grid;
+background-color: rgb(18, 7, 29);
+width: 420px;
+border: 2px solid gray;
+border-radius: 35px;
+padding-bottom: 60px;
+}
+
+.leaf {
+    width: 420px;
+    display: inline-block;
+    margin-bottom: 1px;
+}
+
+.leaf-text {
+display: block;
+}
+
+.lef-headline {
+margin-left: 50px;
+
+width: 350px;
+font-weight: 700;
+font-size: 26px;
+margin-bottom: 4px;
+}
+
+.lef-sub {
+font-size: 19px;
+font-weight: 500px;
+margin-left: 63px;
+width: 300px;
+}
+
+.leaf-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-bottom: 150px;
+}
+
+
+.TOKENOMICS {
+margin-bottom: 50px;
+margin-left: 30px;
+width: 100px;
+font-weight: 700;
+font-size: 30px;
+}
+
+.supply {
+
+}
+
+.category {
+display: flex;
+flex-direction: column;
+
+}
+
+.cat-text {
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 15px;
+   
+    
+}
+
+.vesting-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 50px;
+   background-color:  rgb(18, 7, 29);
+    
+}
+
+.cat-headline {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.map {
+font-weight: 700;
+font-size: 40px;
+margin-left: 30px;
+}
+
+.map-text, .map-line {
+font-weight: 500;
+font-size: 24px;
+}
+.text-map {
+    font-weight: 600;
+    font-size: larger;
+    margin-bottom: 15px;
+   
+    
+}
+
+.map-div {
+    width: 700px;
+    margin-bottom: 70px;
+   background-color: rgb(18, 7, 29);
+}
+
+.general-box {
+    
+}
+
+@media (max-width: 750px) {
+    .leaf-grid  {grid-template-columns: 1fr;}
+}
+
