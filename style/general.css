@@ -2,9 +2,10 @@ p {
     font-family: Roboto, Arial;
     color: white;
 }
+html { height: -webkit-fill-avaliable;}
 
 body {
-    
-   
+  height: 100vh;  
+   height: -webkit-fill-avaliable;
     
 }
