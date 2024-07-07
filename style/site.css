@@ -264,22 +264,21 @@ font-size: 24px;
 }
 
 .general-box {
-    
+  width: 700px;  
 }
 
 @media (max-width: 750px) {
     .leaf-grid  {grid-template-columns: 1fr;
     column-gap: 30px;}
     .head-text {grid-template-columns: 1fr;}
-    .general-box {heightt: 30px;
-                 width: 100%;}
+    .general-box {heightt: 30px;}
+                 
 }
 @media (min-width: 751px) and (max-width: 999px) {
     .leaf-grid {
         grid-template-columns: 1fr 1fr;
     }
     .head-text {grid-template-columns: 1fr 1fr;}
-    .general-box {heightt: 30px;
-                 width: 100%;}
+    .general-box {heightt: 30px;}
 }
         
