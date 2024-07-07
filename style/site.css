@@ -267,7 +267,10 @@ font-size: 24px;
     
 }
 
-@media (max-width: 750px) {
-    .leaf-grid  {grid-template-columns: 1fr;}
+@media only screen and (min-width: 750px) {
+    .general-box  {
+        display: block;
+        width: 100%;
+    }
 }
 
