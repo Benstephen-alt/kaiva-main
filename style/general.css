@@ -5,6 +5,7 @@ p {
 html { height: -webkit-fill-avaliable;}
 
 body {
+    width: 100%;
   height: 100vh;  
    height: -webkit-fill-avaliable;
     
